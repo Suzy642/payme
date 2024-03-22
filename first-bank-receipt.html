@@ -66,6 +66,8 @@
     .dd {
       padding-top: 3px;
       padding-bottom: 3px;
+      display: grid;
+      grid-template-columns: 140px 280px;
     }
   </style>
 </head>
@@ -87,31 +89,66 @@
     <div class="dd">
       <label class="fun">Transaction Type:</label><span class="input">Local Transfer</span>
     </div>
-    <div class="dd"><label class="fun">
-      Amount:</label><span class="input" id="second-info">1,000.00</span>
-    </div>
-    <div class="dd"><label class="fun">
-      Source Account:</label><span class="input" id="third-info">1234****901</span>
+    <div class="dd">
+      <div>
+      <label class="fun">
+      Amount:</label>
+      </div>
+      <div>
+        <span class="input" id="second-info">1,000.00</span>
+      </div>
     </div>
     <div class="dd">
-      <label class="fun">
-      Source Account Name:</label><span class="input" id="four-info">Dee Jay</span>
+      <div><label class="fun">
+      Source Account:</label>
+      </div>
+      <div><span class="input" id="third-info">1234****901</span>
+      </div>
     </div>
     <div class="dd">
+      <div>
       <label class="fun">
-      Beneficiary Account number:</label><span class="input" id="five-info">12345678901</span>
+      Source Account Name:</label>
+      </div>
+      <div>
+        <span class="input" id="four-info">Dee Jay</span>
+        <div>
     </div>
     <div class="dd">
+      <div>
       <label class="fun">
-     Beneficiary Name:</label><span class="input" id="six-info">Dee Jay</span>
+      Beneficiary Account number:</label>
+      </div>
+      <div>
+        <span class="input" id="five-info">12345678901</span>
+      </div>
     </div>
     <div class="dd">
+      <div>
       <label class="fun">
-      Bank:</label><span class="input" id="seven-info">Access Bank Plc</span>
+     Beneficiary Name:</label>
+      </div>
+      <div>
+        <span class="input" id="six-info">Dee Jay</span>
+      </div>
     </div>
     <div class="dd">
+      <div>
       <label class="fun">
-      Narration:</label><span class="input" id="eight-info">Bills</span>
+      Bank:</label>
+      </div>
+      <div>
+        <span class="input" id="seven-info">Access Bank Plc</span>
+      </div>
+    </div>
+    <div class="dd">
+      <div>
+      <label class="fun">
+      Narration:</label>
+      </div>
+      <div>
+        <span class="input" id="eight-info">Bills</span>
+      </div>
     </div>
     <div class="din">
       ______________________________________
